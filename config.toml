@@ -1,4 +1,4 @@
-baseURL = "https://tag-observability.cncf.io/"
+baseURL = "https://observe-k8s.github.io/"
 title = "Observe k8s WG"
 
 # Language settings
@@ -52,10 +52,13 @@ languageName ="English"
 # Weight used for sorting.
 weight = 1
 [languages.en.params]
-description = "TAG Observability facilitates collaboration to discover and produce resources that enable secure access, policy control, and safety for operators, administrators, developers, and end-users across the cloud native ecosystem."
+description = "The observe k8s working group aims to provide actionable, good practice, and peer reviewed guidance on observability tooling for real-life workloads."
 
 [markup]
   [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
     [markup.goldmark.renderer]
       unsafe = true
   [markup.highlight]
@@ -73,7 +76,7 @@ copyright = "CNCF"
 privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
-image = "https://tag-observability.cncf.io/images/observability-social.jpg"
+image = "https://observe-k8s.github.io/images/observability-social.jpg"
 
 # Menu title if your navbar has a versions selector to access old versions of your site.
 # This menu appears only if you have at least one [params.versions] set.
@@ -91,7 +94,7 @@ version = "0.0"
 
 # A link to latest version of the docs. Used in the "version-banner" partial to
 # point people to the main doc site.
-url_latest_version = "https://observability.cncf.io"
+url_latest_version = "https://observe-k8s.github.io"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
 gcs_engine_id = "94caa124b871f4944"

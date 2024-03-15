@@ -1,4 +1,4 @@
 ---
 title: Projects
-description: TAG Observability projects.
+description: Observe k8s WG projects.
 ---

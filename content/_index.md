@@ -1,10 +1,14 @@
 ---
-title: "CNCF TAG Observability"
+title: "Observe k8s WG"
 toc_hide: true
 ---
 
-<div class="lead">
-TAG Observability focuses on topics pertaining to the observation of cloud native workloads. Additionally, it produces supporting material and best practices for end-users and provides guidance and coordination for CNCF projects working within the TAG’s scope.
-</div>
+This working group aims to provide:
+{class="lead"}
 
-<p class="mt-5"><img src="/images/man-using-laptop.jpg" alt="Man working on computer"></p>
+- a suite of realistic sample applications, which employ observability tools & techniques to demonstrate how practitioners can gain insight and understanding.
+- actionable, good practice & peer reviewed guidance on how to enable observability for real-life workloads. Observed workloads will be CNCF Projects.
+{class="lead"}
+
+![Man working on computer](/images/man-using-laptop.jpg)
+{class="mt-5"}
